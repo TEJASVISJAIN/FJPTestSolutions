@@ -53,7 +53,7 @@ public class WarMines {
         //calling the function 'paths'
         paths(field);
 
-        
+
         //TO REACH HERE FIRST LOOK AT THE 'paths' FUNCTION AND BEYOND, THAT IS EVERYTHING BEYOND THIS BLOCK
         //*********************************************************************************************************
         //declaring a min integer with an initialised value of the maximum int possible
@@ -76,7 +76,7 @@ public class WarMines {
         //***********************************************************************************************************
 
     }
-    
+
 
     //declaring a static 2d array for all the possible directions
     static int[][] dir = {{0,-1},{0,1},{1,0},{-1,0} };
@@ -116,5 +116,8 @@ public class WarMines {
             }
         }
     }
+
+}
+
 
 }
