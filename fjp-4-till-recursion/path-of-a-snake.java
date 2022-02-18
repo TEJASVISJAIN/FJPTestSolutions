@@ -49,7 +49,7 @@ public class PathOfSnake {
         //returning the count to the above recursion calls
         return count;
         
-        //  NOTE:  in this function/question, we aren't entertaining N<0 as we don't want that.
+        //  NOTE:  in this function/question, N<0 wont get entertained in any case, so count = 0 returns, which is desirable.
     }
     
     
